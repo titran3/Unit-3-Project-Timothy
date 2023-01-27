@@ -1,0 +1,260 @@
+/* Feel free to change any of the styling below!*/
+
+
+body {
+    text-align: center;
+
+}
+h2 {
+	font-family: "Satisfy";
+    font-size:100px;
+}
+
+img {
+    width: 1000px;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.title {
+    font-weight: 800;
+    font-size:120px;
+    color: white;
+    text-shadow: 2px 4px #4F4F4F;
+    font-weight: 900;
+    
+}
+
+.text {
+    margin-top:25px;
+    margin-bottom:-5px;
+	color:white;
+    font-size:18px;
+    font-family:"arial";
+    letter-spacing:2px;
+    text-shadow: 0px 2px #313131;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    display: block;
+}
+
+p {
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.option-one{
+	background-color:#68B984;
+    color:#CFFDE1;
+    box-shadow: 0px 8px 0px 0px #3D5656, 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.option-two {
+	background-color:#D5CEA3;
+    box-shadow: 0px 8px 0px 0px #9F8772, 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color:beige;
+}
+.no{
+	background-color:#FF0032;
+    box-shadow: 0px 8px 0px 0px #CD0404, 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color:beige;
+}
+.fight{
+	background-color:#FF0032;
+    box-shadow: 0px 8px 0px 0px #CD0404, 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color:beige;
+}
+.yes{
+	background-color:#38E54D;
+    box-shadow: 0px 8px 0px 0px #367E18, 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color:beige;
+}
+.dawg{
+	margin-top:20px;
+}
+.nah{
+	background-color:#9F9F9F;
+    box-shadow: 0px 8px 0px 0px #777777, 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color:beige;
+}
+.nah:hover {
+	background-color:#595959;
+    box-shadow: 0px 8px 0px 0px #3B3B3B, 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color:#EDE4E0;
+}
+
+button {
+    height: 100px;
+    border-radius: 15px;
+    border:none;
+    padding:25px 50px;
+    font-size:25px;
+    margin:50px;
+    font-family: "Arial";
+    letter-spacing:3px;
+        margin-top: 100px;
+    margin-bottom: 120px;
+}
+.yes:hover {
+	background-color:#5F8D4E;
+    box-shadow: 0px 8px 0px 0px #285430, 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color:#EDE4E0;
+}
+.fight:hover {
+	background-color:#DC0000;
+    box-shadow: 0px 8px 0px 0px #850000, 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color:#EDE4E0;
+}
+
+.no:hover {
+	background-color:#DC0000;
+    box-shadow: 0px 8px 0px 0px #850000, 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color:#EDE4E0;
+}
+.option-two:hover {
+	background-color:#9F8772;
+    box-shadow: 0px 8px 0px 0px #665A48, 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color:#EDE4E0;
+}
+.option-one:hover {
+	background-color:#3D5656;
+    color:white;
+    box-shadow: 0px 8px 0px 0px #2C3639, 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+button:active {
+    transform:translateY(7px);
+    box-shadow: 0px 3px 0px 0px #272727;
+}
+
+
+h1 {
+    font-size: 50px;
+    color: black;
+}
+.lion {
+    font-weight: 800;
+    font-size:90px;
+        padding-top:100px;
+    color: white;
+    text-shadow: 2px 4px #4F4F4F;
+    font-weight: 900;
+    
+}
+.option-two-screen {
+    font-family: "Satisfy";
+    display: none;
+    background: linear-gradient(#E64848, #850000);
+}
+
+.lionn{
+	margin-top:20px;
+}
+
+.option-one-screen {
+    background: linear-gradient(#A4BE7B, #285430);
+    font-family: "Satisfy";
+    font-size:100px;
+    display: none;
+}
+
+.restart{
+	background-color:#B2B2B2;
+    box-shadow: 0px 8px 0px 0px gray, 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color:white;
+}
+.restart:hover {
+	background-color:#7F8487;
+    color:white;
+    box-shadow: 0px 8px 0px 0px #413F42, 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.restart1{
+	background-color:#B2B2B2;
+    box-shadow: 0px 8px 0px 0px gray, 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color:white;
+}
+.restart1:hover {
+	background-color:#7F8487;
+    color:white;
+    box-shadow: 0px 8px 0px 0px #413F42, 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.option-one-end {
+	background: linear-gradient(#82AAE3,#BFEAF5);
+    font-family: "Satisfy";
+    color: white;
+    font-size:100px;
+    display: none;
+}
+.house {
+	margin-top:20px;
+}
+
+.option-two-end {
+	background: linear-gradient(#FAD6A5,#8B7E74);
+    font-family: "Satisfy";
+    color: white;
+    font-size:100px;
+    display: none;
+}
+
+.walk {
+    padding-top:100px;
+	color:#90EE90;
+    font-family: "Satisfy";
+    font-size:120px;
+    color: white;
+    text-shadow: 2px 4px #4F4F4F;
+    font-weight: 900;
+}
+.story-opening {
+	background: linear-gradient(#9F8C76, #3C2A21);
+    min-height: 100vh;
+}
+.forest {
+    margin-top:20px;
+}
+
+	
+
+/* When someone enters your game, you only want them to see the opening and the option buttons. The code below will use the display property to hide certain parts of the story. Remove the comments from the code below when you're ready for that step!*/
+
+/* 
+.story-opening{
+   display:none;
+}
+*/
+
+/* 
+.buttons{
+   display:none;
+}
+*/
+
+/* 
+.open-one-screen{
+   display:none;
+}
+*/
+
+/* 
+.open-two-screen{
+   display:none;
+}
+*/
+
+/* 
+.open-one-end{
+   display:none;
+}
+*/
+
+/* 
+.open-two-end{
+   display:none;
+}
+*/
